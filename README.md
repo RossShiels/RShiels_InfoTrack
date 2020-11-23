@@ -1,6 +1,6 @@
 # RShiels_InfoTrack
 InfoTrack – Development Project
 
--Download Prject as a .ZIP
+-Download Project as a .ZIP
 -Open Solution in Visual Studio
 -Run Solution to preview website functionality.
