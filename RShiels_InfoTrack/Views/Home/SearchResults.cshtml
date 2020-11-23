@@ -1,0 +1,8 @@
+﻿@model SearchResultViewModel
+
+<div>
+    <h3>Search Results</h3>   
+    @Html.Label(Model.SearchResult == null ? "" : Model.SearchResult)
+    <br />
+    @Html.ActionLink("Perform Another Search", "Index", "Home")
+</div>

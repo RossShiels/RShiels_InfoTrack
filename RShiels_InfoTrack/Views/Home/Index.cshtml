@@ -1,0 +1,26 @@
+﻿@model SearchResultViewModel
+<div>
+    <h3>Search Result Scraper</h3>
+
+    @using (Html.BeginForm("SubmitScrape", "Home", FormMethod.Post))
+    {
+        <table style="width:60%">
+            <tr>
+                <th> @Html.Label("Search Terms")</th>
+                <th>@Html.TextBoxFor(m => Model.SearchTerms)</th>
+            </tr>
+            <tr>
+                <th>  @Html.Label("Search URL")</th>
+                <th>@Html.TextBoxFor(m => Model.SearchURL)</th>
+            </tr>
+            <tr>
+                <th>   @Html.Label("Number of Results")</th>
+                <th>@Html.EditorFor(m => Model.SearchResultAmount)</th>
+            </tr>
+        </table>
+        <input type="submit" value="Submit" />
+    }
+</div>
+<script type="text/javascript">
+    
+</script>
